@@ -1,0 +1,62 @@
+#
+# Sample rc file for gnuboy
+#
+# You may want to rename this to gnuboy.rc to use it.
+# Lines that begin with # are comments.
+#
+
+# set joy_code up down left right a b start select exit
+
+# iPAQ
+# up		38
+# down		40
+# left		37
+# right		39
+# q		195
+# start		196
+# record	197
+# calendar	193
+# contacts	194
+# action	134
+set joy_code 38 40 37 39 134 195 194 193 197
+
+# x86em
+#set joy_code 38 40 37 39 90 88 13 32 27
+
+# 160 x 144
+#set screenmode 0
+# 160 x 144, landscape
+#set screenmode 1
+# 240 x 216
+#set screenmode 2
+# 240 x 216, landscape
+#set screenmode 3
+# 240 x 216, antialiasing
+set screenmode 4
+# 240 x 216, antialiasing, landscape
+#set screenmode 5
+
+# max 60 fps
+#set frameskip 0
+# max 30 fps
+#set frameskip 1
+# max 20 fps
+#set frameskip 2
+# max 15 fps
+set frameskip 3
+# max 12 fps
+#set frameskip 4
+# max 10 fps
+#set frameskip 5
+
+# turn sound on/off
+set sound 1
+#set sound 0
+
+# stereo/mono
+#set stereo 1
+set stereo 0
+
+# sound sample rate
+set samplerate 22050
+#set samplerate 44100

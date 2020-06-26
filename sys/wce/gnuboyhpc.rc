@@ -1,0 +1,203 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Japanese resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GNUBOY              ICON    DISCARDABLE     "gameboy.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDM_MENU RCDATA MOVEABLE PURE 
+BEGIN
+    0x0066, 0x0003, 0xfffe, 0x9c44, 0x0004, 0x0018, 0x9c43, 0x0000, 0x0000, 
+    0xfffe, 0x9c45, 0x0004, 0x0018, 0x9c46, 0x0000, 0x0001, 0xfffe, 0x9c41, 
+    0x0004, 0x0018, 0x0068, 0x0000, 0x0002
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        POPUP "State Slot"
+        BEGIN
+            MENUITEM "#0",                          IDM_SAVE_SLOT_0
+            MENUITEM "#1",                          IDM_SAVE_SLOT_1
+            MENUITEM "#2",                          IDM_SAVE_SLOT_2
+            MENUITEM "#3",                          IDM_SAVE_SLOT_3
+            MENUITEM "#4",                          IDM_SAVE_SLOT_4
+            MENUITEM "#5",                          IDM_SAVE_SLOT_5
+            MENUITEM "#6",                          IDM_SAVE_SLOT_6
+            MENUITEM "#7",                          IDM_SAVE_SLOT_7
+            MENUITEM "#8",                          IDM_SAVE_SLOT_8
+            MENUITEM "#9",                          IDM_SAVE_SLOT_9
+        END
+        MENUITEM "Save",                        IDM_SAVE
+        MENUITEM "Load",                        IDM_LOAD
+        MENUITEM "Resume",                      IDM_RESUME
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        IDM_EXIT
+    END
+    POPUP "Tools"
+    BEGIN
+        POPUP "Screen"
+        BEGIN
+            MENUITEM "160 x 144",                   IDM_SCREEN_MODE_160X144
+            MENUITEM "240 x 216",                   IDM_SCREEN_MODE_240X216
+            MENUITEM "240 x 216 A",                 IDM_SCREEN_MODE_240X216A
+        END
+        POPUP "Frame Rate"
+        BEGIN
+            MENUITEM "60 fps",                      IDM_FRAME_RATE_60
+            MENUITEM "30 fps",                      IDM_FRAME_RATE_30
+            MENUITEM "20 fps",                      IDM_FRAME_RATE_20
+            MENUITEM "15 fps",                      IDM_FRAME_RATE_15
+            MENUITEM "12 fps",                      IDM_FRAME_RATE_12
+            MENUITEM "10 fps",                      IDM_FRAME_RATE_10
+        END
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About",                       IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 140, 57
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "About gnuboy CE"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_GNUBOY,IDC_STATIC,11,13,20,20
+    LTEXT           "gnuboy CE",IDC_STATIC,40,10,70,8,SS_NOPREFIX
+    LTEXT           "Version",IDC_VERSION,40,25,70,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 133
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "gnuboy CE"
+    IDC_GNUBOY              "gnuboy CE"
+    IDS_PAUSE               "Pause"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELP                "Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMMAND1            "Done "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILE                "File"
+    IDS_TOOLS               "Tools"
+END
+
+#endif    // Japanese resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
